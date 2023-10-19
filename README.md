@@ -1,71 +1,38 @@
-# Getting Started with Create React App
+### **🌌 Studio Initialization**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+1. First, access the project through the GitHub Classroom link: [https://classroom.github.com/a/0mDqpDhv).
+2. Move to your 'labs' directory.
+3. Use the command `git clone [GitHub Classroom Link]` to clone the repository. (Replace [GitHub Classroom Link] with the actual link).
+4. Once cloned, transition into the project directory with `cd [project-name]`. (Replace [project-name] with the name of the lab).
+5. Open the project in Visual Studio Code by typing `code .`.
+6. Within VSCode, launch the integrated terminal.
+7. In the terminal, execute `npm install` to fetch necessary dependencies.
+8. Finally, start the development server by running `npm start`.
 
-In the project directory, you can run:
 
-### `npm start`
+**Lab: Building a Music Artist List App in React**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Objective:** Construct a basic Music Artist List App using React. By the end of this lab, the student will be proficient in creating, importing, and managing state within React components.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Instructions:**
 
-### `npm test`
+1. **Develop the `MyArtistList` Component**
+   - Create a component file named `src/components/MyArtistList.js`.
+   - Design the component to display a default list of artists.
+   - Utilize the `useState` hook to manage and update the list of artists.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Integrate `MyArtistList` into the App**
+   - Go to `src/App.js`.
+   - Incorporate the `MyArtistList` component to show beneath the main title.
 
-### `npm run build`
+3. **Implement Artist Addition Feature**
+   - Return to `src/components/MyArtistList.js`.
+   - Add functionality allowing users to type and add new artists to the music artist list.
+   - Ensure the new artist input and the add button are part of the component's return.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Challenge:** 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Now that you've built a Music Artist List App, can you figure out how to delete an artist from the list? It might be a little tricky, but remember, every developer goes through this journey of learning and problem-solving. Using resources like Google or YouTube can be immensely helpful. It might get frustrating, but the journey is worth it. Embrace the learning process, and always remember: "Bing bong, meow meow!"
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Music-Artist-List-App
+After you've finished, please ensure you commit and push your code. Additionally, verify that your Codio status on this lab is set to 'completed'.
